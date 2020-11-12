@@ -36,7 +36,7 @@ const constructErrorMessage = (response) => {
   if (!response || response.Response === 'False' || response.status >= 400) {
     const errMessage = response.Error
 
-    log(`(OMDB) Error Response Body: ${JSON.stringify(errMessage)}`)
+    error(`(OMDB) Error Response Body: ${JSON.stringify(errMessage)}`)
 
     const error = new Error(errMessage)
     error.statusCode = 422

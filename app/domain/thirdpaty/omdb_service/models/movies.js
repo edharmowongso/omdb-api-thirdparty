@@ -9,7 +9,7 @@ class Movies {
         poster: response.Poster
       }
     })
-    this.total = responses.totalResults
+    this.total = Number(responses.totalResults)
     this.response = responses.Response === 'True'
   }
 }
