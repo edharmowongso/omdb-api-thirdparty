@@ -5,6 +5,7 @@ const methodOverride = require('method-override')
 const helmet = require('helmet')
 const appRoutes = require('../app/infrastructure/server/http/routes')
 const environment = process.env.NODE_ENV || 'development'
+const errorHandler = require('../lib/error_handler')
 
 module.exports = express => {
   const app = express()
@@ -26,6 +27,8 @@ module.exports = express => {
   })
 
   appRoutes(app, express)
+
+  app.use(errorHandler())
 
   return app
 }
