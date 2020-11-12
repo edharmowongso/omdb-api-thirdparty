@@ -1,0 +1,42 @@
+{
+  "title": "Guardians of the Galaxy Vol. 2",
+  "year": "2017",
+  "rated": "PG-13",
+  "released": "05 May 2017",
+  "runtime": "136 min",
+  "genre": "Action, Adventure, Comedy, Sci-Fi",
+  "people": {
+    "director": "James Gunn",
+    "writer": "James Gunn, Dan Abnett (based on the Marvel comics by), Andy Lanning (based on the Marvel comics by), Steve Englehart (Star-Lord created by), Steve Gan (Star-Lord created by), Jim Starlin (Gamora and Drax created by), Stan Lee (Groot created by), Larry Lieber (Groot created by), Jack Kirby (Groot created by), Bill Mantlo (Rocket Raccoon created by), Keith Giffen (Rocket Raccoon created by), Steve Gerber (Howard the Duck created by), Val Mayerik (Howard the Duck created by)",
+    "actors": "Chris Pratt, Zoe Saldana, Dave Bautista, Vin Diesel",
+    "production": "Marvel Studios, Walt Disney Pictures"
+  },
+  "score": {
+    "ratings": [
+      {
+        "Source": "Internet Movie Database",
+        "Value": "7.6/10"
+      },
+      {
+        "Source": "Rotten Tomatoes",
+        "Value": "85%"
+      },
+      {
+        "Source": "Metacritic",
+        "Value": "67/100"
+      }
+    ],
+    "metascore": "67",
+    "imdbRating": "7.6",
+    "imdbVotes": "556,178"
+  },
+  "country": "USA",
+  "awards": "Nominated for 1 Oscar. Another 15 wins & 56 nominations.",
+  "imdbID": "tt3896198",
+  "type": "movie",
+  "poster": "https://m.media-amazon.com/images/M/MV5BNjM0NTc0NzItM2FlYS00YzEwLWE0YmUtNTA2ZWIzODc2OTgxXkEyXkFqcGdeQXVyNTgwNzIyNzg@._V1_SX300.jpg",
+  "dvd": "N/A",
+  "boxOffice": "N/A",
+  "website": "N/A",
+  "response": true
+}
