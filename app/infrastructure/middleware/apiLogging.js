@@ -1,6 +1,16 @@
+const { GetTime } = require('../../../lib/time')
+
 const Logging = async (req, _, next) => {
   try {
-    console.log(req)
+    const currentTime = GetTime()
+    const { method, originalUrl, params, query, statusCode } = req
+
+    console.log(`${currentTime} | ${method} ${originalUrl}`)
+    
+    //  await ApiRequestFeed.create({
+    //    method: method, 
+    //    url: originalUrl
+    //  })
 
     return next()
   } catch (err) {
